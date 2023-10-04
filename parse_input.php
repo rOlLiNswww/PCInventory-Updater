@@ -3,7 +3,7 @@
 function parseInputData($jsonDataArray) {
    
     $result = [ 
-        "code" => $jsonDataArray['HEADER CODE'],
+        "code" => $jsonDataArray['STOCKCODE'],
         "stockOnhand" => $jsonDataArray['STOCKONHAND'],
         "incoming" => $jsonDataArray['INCOMING'],
         "qty1" => (string) $jsonDataArray['QTY1'],
